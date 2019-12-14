@@ -1,0 +1,129 @@
+
+
+    ///...................................*****.................................................///
+    ///                  Fuadul Hasan ( fuadul202@gmail.com )                                   ///
+    ///                  Department of CSE                                                      ///
+    ///                  BSMRSTU,Gopalganj                                                      ///
+    ///...................................*****.................................................///
+
+
+#include<bits/stdc++.h>
+using namespace std;
+
+
+//////////////////////////////////////////////////////////// 
+///...................... part-1.........................///
+///...................... scanf()........................///
+////////////////////////////////////////////////////////////
+
+int sci()               {int x; scanf("%d", &x); return x;}
+long long scll()        {long long x; scanf("%lld", &x); return x;}
+char scr()              {char a;scanf("%c", &a);return a;}
+//double scd()          {double x; scanf("%lf", &x); return x;}
+double scd()            {double x; scanf("%lf", &x); return x;}
+
+
+//////////////////////////////////////////////////////////// 
+///...................... part-2.........................///
+///...................... printf().......................///
+////////////////////////////////////////////////////////////
+
+void out(int x)                 {printf("%d", x);}
+void outsps(int x)              {printf("%d ", x);}
+void outll(long long x)         {printf("%lld", x);}
+void outllsps(long long x)      {printf("%lld ", x);}
+void outcr(char x)              {printf("%c", x);}
+void outcrsps(char x)           {printf("%c ", x);}
+//////////////////////////////////////////////////////////// 
+///...................... part-3.........................///
+///...................... define.........................///
+////////////////////////////////////////////////////////////
+
+//inpute
+#define  sci                    sci()
+#define  scll                   scll()
+#define  scr                    scr()
+#define  scd                    scd()
+//ios
+#define  CIN                    ios_base::sync_with_stdio(0); cin.tie(0); cout.tie(0)
+#define  Input                  freopen("input.txt","rt", stdin)
+#define  Output                 freopen("output.txt","wt", stdout)
+//gcd&lcm&pi
+#define  gcd(a,b)               __gcd(a,b)
+#define  lcm(a,b)               (a*b)/gcd(a,b)
+#define  PI                     acos(-1.0)
+//STL
+#define  vi                     std::vector<int>
+#define  vll                    std::vector<ll>
+#define  mpsi                   std::map<string, int>
+#define  pb                     push_back
+//loops
+#define  For(n)                 for(int i=0;i<n;i++)
+#define  Forj(n)                for(int j=0;j<n;j++)
+#define  Fork(n)                for(int k=0;k<n;k++)
+#define  For1(n)                for(int i=1;i<=n;i++)
+//type define
+#define  ll                     long long int
+#define  ld                     long double
+#define  ull                    unsigned long long int
+//max&min
+#define  min3(a,b,c)            min(a,min(b,c))
+#define  min4(a,b,c,d)          min(d,min(a,min(b,c)))
+#define  max3(a,b,c)            max(a,max(b,c))
+#define  max4(a,b,c,d)          max(d,max(a,max(b,c)))
+//others
+#define  nl                     printf("\n");
+#define  no                     cout << "No" << endl ;
+#define  yes                    cout << "Yes" << endl ;
+#define  F                      first
+#define  S                      second
+ 
+ 
+const int mod           = 1e9 + 7;
+const int inf           = (int)2e9 + 5;
+const ll  Inf           = (ll)1e18 + 5;
+const int N             = 1e6 + 5;
+
+ 
+inline int add(int a, int b) {a += b; return a >= mod ? a - mod : a;}
+inline int sub(int a, int b) {a -= b; return a < 0 ? a + mod : a;}
+inline int mul(int a, int b) {        return (ll)a * b % mod;}
+
+
+ 
+ 
+int siv[N],a[N],b[N];
+ 
+
+//////////////////////////////////////////////////////////// 
+///...................... part-4.........................///
+///....................let's try.........................///
+////////////////////////////////////////////////////////////
+
+int solve() {
+    
+    
+
+    return 0;
+}
+ 
+ 
+ 
+ 
+int main()
+{
+    //Input//freopen("input.txt", "r", stdin);
+    //Output//freopen("output.txt", "w", stdout);
+    CIN;
+ 
+    int test = 1, tc = 0;
+    scanf("%d", &test);
+   // (void)getchar();
+    //cin >> test;
+    while (test--) {
+        //printf("Case %d: ", ++tc);
+        solve();
+    }
+ 
+    return 0;
+}
